@@ -1,0 +1,26 @@
+#tasks .card {
+  height: 80px;
+  color: black;
+}
+
+.footer-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.not-completed {
+  background-color: rgb(255, 255, 158);
+}
+
+.high-priority {
+  background-color: rgb(255, 153, 153);
+}
+
+.completed {
+  background-color: rgb(159, 255, 159);
+  text-decoration: line-through;
+}
+
+#tasks i:hover {
+  cursor: pointer;
+}
